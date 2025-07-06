@@ -20,6 +20,12 @@
             "goose-gui.exe"
         ]
     ],
+    "shortcuts": [
+        [
+            "goose-gui.exe",
+            "Goose"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/block/goose"
     },
