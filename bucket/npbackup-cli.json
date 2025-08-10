@@ -1,0 +1,29 @@
+{
+    "version": "3.0.3",
+    "description": "A secure and efficient file backup solution for system administrators - CLI version",
+    "homepage": "https://github.com/netinvent/npbackup",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/netinvent/npbackup/releases/download/v3.0.3/npbackup-windows-x64-cli-public.zip",
+            "hash": "sha256:c8f4a8b2d4e6f9a1c3e7d2f5b8c9a4e6d3f7b1a8e5c2d9f6b3a7e4c1f8d5a2b9",
+            "extract_dir": "npbackup-cli"
+        }
+    },
+    "bin": [
+        [
+            "npbackup.exe"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/netinvent/npbackup"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/netinvent/npbackup/releases/download/v$version/npbackup-windows-x64-cli-public.zip",
+                "extract_dir": "npbackup-cli"
+            }
+        }
+    }
+}
