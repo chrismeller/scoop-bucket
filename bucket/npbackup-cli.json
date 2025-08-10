@@ -12,7 +12,7 @@
     },
     "bin": [
         [
-            "npbackup.exe"
+            "npbackup-cli.exe"
         ]
     ],
     "checkver": {
