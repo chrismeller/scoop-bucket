@@ -1,12 +1,12 @@
 {
-    "version": "26.0.1+1",
+    "version": "26.0.1",
     "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.",
     "homepage": "https://sql.studio",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ColdspireLLC/sql-studio-releases/releases/download/app-v26.0.1+1/SQL.Studio_26.0.1+1_x64_en-US.msi",
-            "hash": "ec5d35fd5069c1112f7958ee23b2cd135a75d67040d1dd026c0de8aa5c7d6265"
+            "url": "https://github.com/ColdspireLLC/sql-studio-releases/releases/download/app-v26.0.1/SQL.Studio_26.0.1_x64_en-US.msi",
+            "hash": "725c267e5cb1b85dc223efc76cd465a411a9603e196105b142f17a06b0a719b8"
         }
     },
     "extract_dir": "PFiles\\SQL Studio",
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ColdspireLLC/sql-studio-releases/releases/download/app-v$version/SQL.Studio_$version_x64_en-US.msi",
+                "url": "https://github.com/ColdspireLLC/sql-studio-releases/releases/download/app-v$version/SQL.Studio_$version_x64_en-US.msi"
             }
         },
         "hash": {
