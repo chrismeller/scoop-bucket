@@ -6,11 +6,11 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/chrismeller/rdap-dotnet-cli/releases/download/v0.2.0/rdap-0.2.0-win-x64.zip",
-            "hash": "asdf"
+            "hash": "0b9fc548a91b45365a7f2f277d134defa9042e1579a0907f54e888352ed65a64"
         },
         "64bit": {
             "url": "https://github.com/chrismeller/rdap-dotnet-cli/releases/download/v0.2.0/rdap-0.2.0-win-x64.zip",
-            "hash": "asdf"
+            "hash": "0b9fc548a91b45365a7f2f277d134defa9042e1579a0907f54e888352ed65a64"
         }
     },
     "bin": "rdap-dotnet-cli.exe",
